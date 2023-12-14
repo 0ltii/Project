@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <!-- <a href="index.html"><img src="vacc.png" /></a> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+
+          <ul>
+            <li><a href="index.html">BALLINA</a></li>
+            <li><a href="vaksinimi.html">VAKSINIMI</a></li>
+            <li><a href="vaksinat.html">VAKSINAT</a></li>
+            <li><a href="#">KONTAKTI</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1 class="contact1s">Ne Jemi Akademia Inovative</h1>
+          <p>
+            Innovation Academy &euml;sht&euml; themeluar n&euml; vitin 2019 dhe
+            ka p&euml;r q&euml;llim zhvillimin e njohurive teknologjike q&euml;
+            nga mosha 8 vjeçare, po ashtu m&euml;simin e gjuh&euml;ve t&euml;
+            huaja me planprogramet m&euml; t&euml; avancuara p&euml;r
+            f&euml;mij&euml; dhe t&euml; rritur.
+          </p>
+          <a
+            class="hero-btn red-btn"
+            href="https://www.facebook.com/akademiainovative/?ref=page_internal"
+            >K&euml;rko Tani</a
+          >
+        </div>
+        <div class="about-col1"></div>
+      </div>
+    </section>
+
+    <!-- about us -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Ne Jemi Nj&euml; Akademi Inovative Q&euml; Bejm&euml; Punimin E
+        Webisites
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/akademiainovative"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/innovationacademy_official/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p>Made with <i class="fas fa-heart"></i> by Olti Abazi</p>
+    </section>
+
+    <!-- ----------JavaScript for toggle Menu-------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.width = "200px";
+      }
+      function hidemenu() {
+        navLinks.style.width = "0";
+      }
+    </script>
+  </body>
+  <!-- </html> -->
+</html>

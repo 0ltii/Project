@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="nim-header">
+      <nav>
+        <!-- <a href="index.html"><img src="vacc.png" /></a> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+
+          <ul>
+            <li><a href="index.html">BALLINA</a></li>
+            <li><a href="#">VAKSINIMI</a></li>
+            <li><a href="vaksinat.html">VAKSINAT</a></li>
+            <li><a href="kontakti.html">KONTAKTI</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1 class="vaksinz">VAKSINIMI</h1>
+      </div>
+    </section>
+
+    <!-- about us -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Ne Jemi Nj&euml; Akademi Inovative Q&euml; Bejm&euml; Punimin E
+        Webisites
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/akademiainovative"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/innovationacademy_official/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p>Made with <i class="fas fa-heart"></i> by Olti Abazi</p>
+    </section>
+
+    <!-- ----------JavaScript for toggle Menu-------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.width = "200px";
+      }
+      function hidemenu() {
+        navLinks.style.width = "0";
+      }
+    </script>
+  </body>
+  <!-- </html> -->
+</html>
